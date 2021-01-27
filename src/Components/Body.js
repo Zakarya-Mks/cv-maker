@@ -12,12 +12,12 @@ class Body extends Component {
     return (
       <div className="container pb-5 ">
         <div className="row">
-          <div className="col-5">
+          <div className="col-12 col-lg-5">
             <PersonalInfo />
             <Skills />
             <Language />
           </div>
-          <div className="col-7 border-left pl-5">
+          <div className="col-12 col-lg-7 border-left pl-5 mt-4 mt-lg-0">
             <Experience />
             <Education />
             <Certifications />

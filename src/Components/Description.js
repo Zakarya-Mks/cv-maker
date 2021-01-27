@@ -35,9 +35,9 @@ class Description extends Component {
     const description = this.state.topDescription.description;
 
     return (
-      <div className="container">
+      <div className="container mt-4 mt-lg-0">
         <div className="row ">
-          <div className="col-6 offset-6 editable-description pr-4 ">
+          <div className="col-12 col-lg-6 offset-lg-6 editable-description pr-4 ">
             <DisplayEdit
               onToggleEditMode={this.toggleEditMode}
               onContentChange={this.ContentChanged}

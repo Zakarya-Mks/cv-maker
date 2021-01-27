@@ -17,7 +17,7 @@ function Header() {
   return (
     <div className="container">
       <div className="row bottom-triangle">
-        <div className="col-6 d-flex align-items-center bg-info  h-100px position-relative">
+        <div className="col-12 col-lg-6 d-flex align-items-center bg-info  h-100px position-relative">
           <img width="50" src={logo} alt="CV" />
           <h1 className="text-white mb-0">CV-Maker</h1>
 

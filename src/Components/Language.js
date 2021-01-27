@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import DisplayTag from './DisplayTag';
 import SingleLineListItem from './SingleLineListItem';
 import addImg from '../img/add.svg';
-import Rating from './Rating';
 
 class Language extends Component {
   constructor(props) {

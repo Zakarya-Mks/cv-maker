@@ -89,7 +89,7 @@ class Experience extends Component {
 
   render() {
     return (
-      <div className="editable-Experience mb-4">
+      <div className="editable-Experience mb-4 ">
         <div className="w-100 border-bottom position-relative mb-4">
           <div className="arrowContainer">
             <div id="base" />

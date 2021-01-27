@@ -5,7 +5,7 @@ export class Footer extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-7 offset-5 bg-info  h-100px"></div>
+          <div className="col-12 col-lg-7 offset-lg-5 bg-info  h-100px"></div>
         </div>
       </div>
     );
